@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(104, 104, 179);
+  overflow-y: hidden;
+}
+
+#textarea {
+  width: 72%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(57, 50, 50);
+}
+
+p {
+  font-size: 2rem;
+  color: pink;
+  font-weight: bold;
+}
+h1 {
+  font-weight: bold;
+  color: rgb(40, 39, 39);
+  letter-spacing: 5px;
+}
+button {
+  background-color: #302954;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  color: white;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+button:active {
+  transform: scale(0.9);
+}
+
+button:hover {
+  background-color: greenyellow;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
